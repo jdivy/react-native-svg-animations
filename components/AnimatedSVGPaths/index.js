@@ -7,7 +7,7 @@ import {
   Dimensions,
 } from 'react-native';
 
-import Path from '../AnimatedPath';
+import {AnimatedSvgPaths as Path} from '../AnimatedPath';
 
 const { height, width } = Dimensions.get('window');
 class AnimatedSVGPaths extends Component {
