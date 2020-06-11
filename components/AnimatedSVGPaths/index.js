@@ -1,15 +1,11 @@
 import React, {
-  PureComponent, Component,
+  Component,
 } from 'react';
 import PropTypes from 'prop-types';
 import Svg from 'react-native-svg';
 import {
-  Animated,
   Dimensions,
 } from 'react-native';
-import {
-  svgPathProperties,
-} from 'svg-path-properties';
 
 import Path from '../AnimatedPath';
 
@@ -86,7 +82,4 @@ class AnimatedSVGPaths extends Component {
 
 /* Export ==================================================================== */
 
-module.exports = AnimatedSVGPaths;
-module.exports.details = {
-  title: 'AnimatedSVGPaths',
-};
+export { AnimatedSVGPaths }

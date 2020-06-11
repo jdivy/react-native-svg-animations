@@ -113,7 +113,4 @@ class AnimatedSvgPaths extends Component {
 
 /* Export ==================================================================== */
 
-module.exports = AnimatedSvgPaths;
-module.exports.details = {
-  title: 'AnimatedSvgPaths',
-};
+export {AnimatedSvgPaths}

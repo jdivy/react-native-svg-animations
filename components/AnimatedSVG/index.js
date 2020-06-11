@@ -1,12 +1,10 @@
 import React, {
   Component,
 } from 'react';
-import Svg, {
+import {
   Path,
 } from 'react-native-svg';
-import {
-  Animated,
-} from 'react-native';
+
 
 import AnimatedSvg from '../../utils/AnimatedSVG';
 
